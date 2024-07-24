@@ -1,1 +1,1 @@
-# playwright-repo
+# playwright-workshop
