@@ -3,7 +3,7 @@ import path from 'path';
 
 const credFile = path.join(__dirname, '../credential/.auth/user.json');
 
-setup('Login Account', async ({ page }) => {
+setup('Session4 - Login Account', async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
     await page.locator('#user-name').fill('standard_user');
     await page.locator('#password').fill('secret_sauce');
